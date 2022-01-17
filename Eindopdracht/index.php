@@ -8,13 +8,13 @@
  * Verder hoef je geen code te schrijven op deze pagina.
  */
 
-
+ include 'bitcoindata.php';
 
 
 /*******************************************************************************************************************/
 /**************************** De code hieronder heb je nodig en hoef je niet aan te passen *************************/
 ?>
-<?php include 'bitcoindata.php';?>
+
 <?php include 'header.php'; ?>
 
 <div class="container mt-4">

@@ -18,7 +18,7 @@
 /* 
  * Opdracht 2: Zet hier de $buttons array neer 
  */
-$buttons = [2344,2478124,24324,52];
+$buttons = [1000,1500,2000,2500,10000];
 
 /******************************************* OPDRACHT 2 doe je hierboven *******************************************/
 /*******************************************************************************************************************/
@@ -38,7 +38,7 @@ function calculateBitcoinAmount()
 {
     if (isset($_GET['euro'])) {
         $euro = (int)$_GET['euro']; //Dit blokje code (if-statement) kun je laten staan.
-    }
+    };
 
     $prijs = getBitcoinPrice();
     $totaal= $euro/$prijs;

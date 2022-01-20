@@ -10,7 +10,7 @@
 <?php
 
 $myheroes=["homerus","bo burnham"] ;
-
+$myheroes[3] ='batman';
 array_push ($myheroes,'Quentin Tarantino');
 
 print_r($myheroes)
